@@ -1,0 +1,2980 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://transltr.io/milestones/5087_orange",
+      "meta" : {
+        "definition" : {
+          "val" : "Create dynamic disease definitions that leverage ontological/graph classification in combination with attribute-based nosology on the fly, using methods such as biclustering and data-driven ontologies",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#orange", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Create dynamic disease definitions that leverage ontological/graph classification in combination with attribute-based nosology on the fly, using methods such as biclustering and data-driven ontologies"
+    }, {
+      "id" : "http://transltr.io/milestones/4072_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "Develop infrastructure for testing reasoner outputs against predefined questions & known answers",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#x-ray", "http://transltr.io/vocab#presentation" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Develop infrastructure for testing reasoner outputs against predefined questions & known answers"
+    }, {
+      "id" : "http://transltr.io/milestones/4062_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "GWAS Central (gwascentral.org)  incorporate genotype-to-phenotype information from GWAS into Translator MVP.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#x-ray", "http://transltr.io/vocab#knowledge" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "GWAS Central (gwascentral"
+    }, {
+      "id" : "http://transltr.io/milestones/5088_orange",
+      "meta" : {
+        "definition" : {
+          "val" : "Application of Case-Based Reasoning (CBR) technologies on a bank of vetted answer graphs from reasoner teams. Given a new question, CBR will find an analogous question and use or adapt the same strategy.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#logic", "http://transltr.io/vocab#orange" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Application of Case-Based Reasoning (CBR) technologies on a bank of vetted answer graphs from reasoner teams"
+    }, {
+      "id" : "http://transltr.io/milestones/5086_orange",
+      "meta" : {
+        "definition" : {
+          "val" : "Integrate BioThings Explorer Platform into the overall Translator MVP implementation incorporating the BTE python client into existing workflows",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#architecture", "http://transltr.io/vocab#orange" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Integrate BioThings Explorer Platform into the overall Translator MVP implementation incorporating the BTE python client into existing workflows"
+    }, {
+      "id" : "http://transltr.io/milestones/2019_gamma",
+      "meta" : {
+        "definition" : {
+          "val" : "Contextual Reasoning. Enable contextual reasoning using Green Teams ICEES (Integrated Clinical and Environmental Exposures Service). Implement contextual graphs and reasoning; in other words, standardize the representation of ternary relationships such as 'X is associated with Y in cohort Z', and then extend reasoning to support this.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#knowledge", "http://transltr.io/vocab#gamma" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Contextual Reasoning"
+    }, {
+      "id" : "http://transltr.io/milestones/6006_blue",
+      "meta" : {
+        "definition" : {
+          "val" : "Drug Similarity. A knowledge source of similarities among ChemDB entries derived from structured data in ChemDB by fingerprinting. This includes (1) A database of ChemDB fingerprints and (2) An API to query for ChemDB objects by similarity.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#blue", "http://transltr.io/vocab#knowledge" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Drug Similarity"
+    }, {
+      "id" : "http://transltr.io/milestones/5084_orange",
+      "meta" : {
+        "definition" : {
+          "val" : "Finalize results for queries & analysis modules for the key demonstrator areas of Fanconi anemia, Ehlers-Danlos type III, and Undiagnosed Disease Network patients (including clinical data)",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#logic", "http://transltr.io/vocab#orange" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Finalize results for queries & analysis modules for the key demonstrator areas of Fanconi anemia, Ehlers-Danlos type III, and Undiagnosed Disease Network patients (including clinical data)"
+    }, {
+      "id" : "http://transltr.io/milestones/5082_orange",
+      "meta" : {
+        "definition" : {
+          "val" : "How-to-guide for how to publish Translator/community-ready data integration",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#other", "http://transltr.io/vocab#orange" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "How-to-guide for how to publish Translator/community-ready data integration"
+    }, {
+      "id" : "http://transltr.io/milestones/4052_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "In RTX path prioritization, leverage statistics that are quickly computable with a KG (ala the already implemented Fishers exact test) such as: permutation testing, likelihood ratios, Mahalanobis outlier test, ANOVA, spearman, etc.). Stand these up as API microservices for other teams.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#x-ray", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "In RTX path prioritization, leverage statistics that are quickly computable with a KG (ala the already implemented Fishers exact test) such as: permutation testing, likelihood ratios, Mahalanobis outlier test, ANOVA, spearman, etc"
+    }, {
+      "id" : "http://transltr.io/milestones/5083_orange",
+      "meta" : {
+        "definition" : {
+          "val" : "Clinical profiles structured by FHIR across demographic and source stratification, machinable provenance; simple summary profile of all comers across groups",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#knowledge", "http://transltr.io/vocab#orange" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Clinical profiles structured by FHIR across demographic and source stratification, machinable provenance; simple summary profile of all comers across groups"
+    }, {
+      "id" : "http://transltr.io/milestones/5085_orange",
+      "meta" : {
+        "definition" : {
+          "val" : "Finalize MVP process and patterns for use in applications to include configurable queries and analysis modules",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#architecture", "http://transltr.io/vocab#orange" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Finalize MVP process and patterns for use in applications to include configurable queries and analysis modules"
+    }, {
+      "id" : "http://transltr.io/milestones/9006_red",
+      "meta" : {
+        "definition" : {
+          "val" : "Build and release API for mechanistic adverse reaction database: GOTE. GOTE links G-protein coupled receptors to tissue-specific molecular pathways. G protein-coupled receptors (GPCRs) are central to how cells respond to their environment and a major class of pharmacological targets. We developed a data-driven method named GOTE, that connects Gpcrs to dOwnstream cellular pathways by the Tissue Expression. 93,012 connections for 213 GPCRs and 654 pathways in 196 tissues/cell types available. Tasks will include: creating a REST API according to Knowledge Beacon API 2.0 for integration with other knowledge sources. Add GOTE to the Knowledge Beacon Aggregator.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#mediation", "http://transltr.io/vocab#red" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Build and release API for mechanistic adverse reaction database: GOTE"
+    }, {
+      "id" : "http://transltr.io/milestones/5089_orange",
+      "meta" : {
+        "definition" : {
+          "val" : "Parsing EHR data through HPO2LOINC pipeline and stratifying patients based on HPO groupings and interlinked ontologies - continued working on existing HUSH+ asthma dataset and extension to other datasets",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#knowledge", "http://transltr.io/vocab#orange" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Parsing EHR data through HPO2LOINC pipeline and stratifying patients based on HPO groupings and interlinked ontologies - continued working on existing HUSH+ asthma dataset and extension to other datasets"
+    }, {
+      "id" : "http://transltr.io/milestones/3024_indigo",
+      "meta" : {
+        "definition" : {
+          "val" : "Test the generality of TIDBIT Workflows by applying them to new inputs (e.g., apply Workflows 1 and 2 to different diseases than those used to define them).",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#indigo", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Test the generality of TIDBIT Workflows by applying them to new inputs (e"
+    }, {
+      "id" : "http://transltr.io/milestones/8010_Infrared",
+      "meta" : {
+        "definition" : {
+          "val" : "Polypharmacy side effect prediction microservice.  Will consist of an optimized, pretrained model that supports an API for inference of polypharmacy side effects given a list of medications. Underlying reasoning algorithm is Decagon, a graph convolutional neural network architecture for multirelational link prediction. http://snap.stanford.edu/decagon/",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#logic", "http://transltr.io/vocab#infrared" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Polypharmacy side effect prediction microservice"
+    }, {
+      "id" : "http://transltr.io/milestones/3023_indigo",
+      "meta" : {
+        "definition" : {
+          "val" : "Extend the MVP additional TIDBIT Workflows (defined by Query & Interface subgroup; we aim to integrate all Workflows completed by the end of June 2019, with an anticipated maximum of around eight)",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#presentation", "http://transltr.io/vocab#indigo" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Extend the MVP additional TIDBIT Workflows (defined by Query & Interface subgroup; we aim to integrate all Workflows completed by the end of June 2019, with an anticipated maximum of around eight)"
+    }, {
+      "id" : "http://transltr.io/milestones/3021_indigo",
+      "meta" : {
+        "definition" : {
+          "val" : "Develop a systematic approach to acquiring SME feedback on TIDBIT Workflow results.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#presentation", "http://transltr.io/vocab#indigo" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Develop a systematic approach to acquiring SME feedback on TIDBIT Workflow results"
+    }, {
+      "id" : "http://transltr.io/milestones/3022_indigo",
+      "meta" : {
+        "definition" : {
+          "val" : "Evaluate the robustness of individual Workflow modules and test alternative approaches if necessary.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#logic", "http://transltr.io/vocab#indigo" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Evaluate the robustness of individual Workflow modules and test alternative approaches if necessary"
+    }, {
+      "id" : "http://transltr.io/milestones/3020_indigo",
+      "meta" : {
+        "definition" : {
+          "val" : "Assess the scientific premise, merit, and feasibility of TIDBIT Workflows by manual/expert curation (i.e., without automated reasoning) to identify gaps and select the most promising examples for automation and presentation.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#logic", "http://transltr.io/vocab#indigo" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Assess the scientific premise, merit, and feasibility of TIDBIT Workflows by manual/expert curation (i"
+    }, {
+      "id" : "http://transltr.io/milestones/9008_red",
+      "meta" : {
+        "definition" : {
+          "val" : "Harden the Data2Services Framework Prototype. We have been developing a Data2Services framework to automatically process heterogeneous data (CSV, XML, JSON) into standardized data formats (e.g. JSON, JSON-LD, N-Triples, CSV) and services (SPARQL endpoint, GraphQL endpoint, Beacon API) all documented with the smartAPI standard. New work is required to add adapters, harden the framework, and to facilitate its deployment for an arbitrary dataset. We will demonstrate the framework by applying it to high value datasets to the Translator effort, and testing their inclusion in Translator Reasoners. Users will be able to manually configure to target data models, such as the BioLink model. Data2Services will enhance the availability of structured data to Reasoners by reducing the burden to quickly providing a variety of interfaces to the source data. ",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#knowledge", "http://transltr.io/vocab#red" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Harden the Data2Services Framework Prototype"
+    }, {
+      "id" : "http://transltr.io/milestones/5080_orange",
+      "meta" : {
+        "definition" : {
+          "val" : "Add additional knowledge sources to Smart API and BEACON frameworks, including LINCS API (drug perturbation), G2S API (variant to functional domain mapping), LitVar API (variant annotation).",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#orange", "http://transltr.io/vocab#knowledge" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Add additional knowledge sources to Smart API and BEACON frameworks, including LINCS API (drug perturbation), G2S API (variant to functional domain mapping), LitVar API (variant annotation)"
+    }, {
+      "id" : "http://transltr.io/milestones/5081_orange",
+      "meta" : {
+        "definition" : {
+          "val" : "Enhance Smart API discovery by indexing parameter and response metadata on smart-api.info.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#mediation", "http://transltr.io/vocab#orange" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Enhance Smart API discovery by indexing parameter and response metadata on smart-api"
+    }, {
+      "id" : "http://transltr.io/milestones/2026_gamma",
+      "meta" : {
+        "definition" : {
+          "val" : "Clinical and Spatiotemporal Support. Design and integrate a graphical user interface to define clinical cohorts and spatiotemporal variables and query and infer over spatiotemporal knowledge sources.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#knowledge", "http://transltr.io/vocab#gamma" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Clinical and Spatiotemporal Support"
+    }, {
+      "id" : "http://transltr.io/milestones/2016_gamma",
+      "meta" : {
+        "definition" : {
+          "val" : "Non-publication Edge Support. Move beyond the use of literature co-occurrence terms and supporting publications to provide edge confidence in ROBOKOP. Identify novel approaches for edge support to improve the ranking and scoring of answers; for example, non-publication edge support or smarter use of publications for edge support such as relationships between papers or the information contained therein.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#logic", "http://transltr.io/vocab#gamma" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Non-publication Edge Support"
+    }, {
+      "id" : "http://transltr.io/milestones/2023_gamma",
+      "meta" : {
+        "definition" : {
+          "val" : "User Interfaces. Work with SMEs to design user interfaces that balance usability, flexibility, and simplicity.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#gamma", "http://transltr.io/vocab#presentation" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "User Interfaces"
+    }, {
+      "id" : "http://transltr.io/milestones/2013_gamma",
+      "meta" : {
+        "definition" : {
+          "val" : "TIDBIT Workflow Support. Provide generalized computational capabilities to support current QI TIDBIT workflow questions.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#gamma", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "TIDBIT Workflow Support"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+      "type" : "PROPERTY",
+      "lbl" : "definition"
+    }, {
+      "id" : "http://transltr.io/milestones/6010_blue",
+      "meta" : {
+        "definition" : {
+          "val" : "Response confidence metric. For an actual query (such as the MVP queries), we will generate a distribution of near miss questions (e.g. by swapping out diseases/genes/drugs). Running these questions through Translator provides an empirical background distribution of false positive answers. Answers that are common to near miss questions inspire less confidence. This project enables us to study the confidence metrics assigned by the various reasoners. ",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#logic", "http://transltr.io/vocab#blue" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Response confidence metric"
+    }, {
+      "id" : "http://transltr.io/milestones/6005_blue",
+      "meta" : {
+        "definition" : {
+          "val" : "DDOT Repository and NDEx Network Database. Repository of data-driven ontologies available for the general translator project, works with the NDEx database and CX network exchange format.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#blue", "http://transltr.io/vocab#knowledge" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "DDOT Repository and NDEx Network Database"
+    }, {
+      "id" : "http://transltr.io/milestones/8006_infrared",
+      "meta" : {
+        "definition" : {
+          "val" : "A knowledge source of binding pocket similarities between PDB entries using the PocketFeature algorithm. Consists of a precomputed table of PDB binding pocket similarities and REST API to query PDB objects by similarity.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#infrared", "http://transltr.io/vocab#knowledge" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "A knowledge source of binding pocket similarities between PDB entries using the PocketFeature algorithm"
+    }, {
+      "id" : "http://transltr.io/milestones/8011_Infrared",
+      "meta" : {
+        "definition" : {
+          "val" : "Longitudinal analysis of therapeutic safety and effectiveness signals in GNBR. Apply statistical methods and develop graph-based spatial autocorrelation metric to identify trends and anomalies in clinical literature. Investigate temporal correlations with known social events, such as regulatory decisions; and collaborate with Red team to assess impact on clinical data instability.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#infrared", "http://transltr.io/vocab#knowledge" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Longitudinal analysis of therapeutic safety and effectiveness signals in GNBR"
+    }, {
+      "id" : "http://transltr.io/milestones/1003a_green",
+      "meta" : {
+        "definition" : {
+          "val" : "Sociological Exposures - Identify and pursue key exposures (e.g., SES and related factors) and capabilities (e.g., varying space and time resolutions) in the context of meaningful translational science questions. Provide adequate spatio-temporal data to support reasoning requirements.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#green", "http://transltr.io/vocab#knowledge" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Sociological Exposures - Identify and pursue key exposures (e"
+    }, {
+      "id" : "http://transltr.io/milestones/7101_alpha",
+      "meta" : {
+        "definition" : {
+          "val" : "Perform scalable, deep logical inference across the various data sources provided by the color teams.  Continue to develop and implement heuristics, improved data representations, improved algorithms, etc., to improve scalability of search and reasoning, based on the structure of data and common usage patterns.  (For example, continue developing ways to speed up path exploration, and to avoid path explosion in queries.)",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#logic", "http://transltr.io/vocab#alpha" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Perform scalable, deep logical inference across the various data sources provided by the color teams"
+    }, {
+      "id" : "http://transltr.io/milestones/6008_blue",
+      "meta" : {
+        "definition" : {
+          "val" : "Big Data 2 Association Miner API. Given the usefulness of large measurement data in Translator workflows, we will design an automated workflow to transform (possibly several related) large feature matrices (data tables of samples by features) into a set of sensible Translator questions that can be answered using a fully operational API interface. We will use the Google Cloud Platform and Google Big Query to host the data as well as perform the computation. This will ensure scalability, reproducibility and security. We would welcome Translator teams to suggest and/or provide datasets around which we would build APIs that directly integrate with Translator. Our initial goal would be to re-create Big CLAM (Cell Line Association Miner) using this workflow. Big CLAM involves 10+ feature matrices from three different cell line projects (GDSC, CMap, CDM). ",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#knowledge", "http://transltr.io/vocab#blue" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Big Data 2 Association Miner API"
+    }, {
+      "id" : "http://transltr.io/milestones/1005_green",
+      "meta" : {
+        "definition" : {
+          "val" : "Translator Services for Executing Functional Graph Operators. Accepting an answer graph in the Knowledge Graph standard, develop a service to execute a set of transformations on the graph and produce a new graph. Incorporate operations such as node expansions, pruning, inference, etc.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#logic", "http://transltr.io/vocab#green" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Translator Services for Executing Functional Graph Operators"
+    }, {
+      "id" : "http://transltr.io/milestones/4075_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "continue to support independent UIs through 2019, to enable exploration of UI ideas that will eventually be useful for the MVP (such as the issue of parsing a user's natural language query into an API call).",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#presentation", "http://transltr.io/vocab#x-ray" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "continue to support independent UIs through 2019, to enable exploration of UI ideas that will eventually be useful for the MVP (such as the issue of parsing a user's natural language query into an API call)"
+    }, {
+      "id" : "http://transltr.io/milestones/6011_blue",
+      "meta" : {
+        "definition" : {
+          "val" : "Patient Similarity. A method for computing similarities among patients in a cohort by fingerprinting.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#blue", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Patient Similarity"
+    }, {
+      "id" : "http://transltr.io/milestones/8005_infrared",
+      "meta" : {
+        "definition" : {
+          "val" : "Python libraries for PharmGKB curator-generated Pharmacogenomics pathway queries as domain-dependent lookup examples that dont just do lookup, but add filters based on requirements of the domain.  iPython notebook examples for SME workflows.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#infrared", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Python libraries for PharmGKB curator-generated Pharmacogenomics pathway queries as domain-dependent lookup examples that dont just do lookup, but add filters based on requirements of the domain"
+    }, {
+      "id" : "http://transltr.io/milestones/4055_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "Create API and/or module so paths from other teams can be easily ranked as well.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#x-ray", "http://transltr.io/vocab#mediation" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Create API and/or module so paths from other teams can be easily ranked as well"
+    }, {
+      "id" : "http://transltr.io/milestones/1002_green",
+      "meta" : {
+        "definition" : {
+          "val" : "Pan-CTSA Clinical Knowledge Sources. Evangelize the above pipeline to enable other CTSAs to generate ICEES-like data sets suitable for use in the NCATS Translator Knowledge Source ecosystem.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#green", "http://transltr.io/vocab#knowledge" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Pan-CTSA Clinical Knowledge Sources"
+    }, {
+      "id" : "http://transltr.io/milestones/7104_alpha",
+      "meta" : {
+        "definition" : {
+          "val" : "Provide human-readable/understable output including the rationale, data sources, inferences made, etc., during reasoning",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#presentation", "http://transltr.io/vocab#alpha" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Provide human-readable/understable output including the rationale, data sources, inferences made, etc"
+    }, {
+      "id" : "http://transltr.io/milestones/4058_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "support the delivery of durable and documented tools and systems for KG generation, that will provide longevity to the benefits of Translator.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#knowledge", "http://transltr.io/vocab#x-ray" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "support the delivery of durable and documented tools and systems for KG generation, that will provide longevity to the benefits of Translator"
+    }, {
+      "id" : "http://transltr.io/milestones/4078_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "Add functionality to RTX that leverages BigCLAM for question answering",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#x-ray", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Add functionality to RTX that leverages BigCLAM for question answering"
+    }, {
+      "id" : "http://transltr.io/milestones/3030_indigo",
+      "meta" : {
+        "definition" : {
+          "val" : "Implement fully autonomous end-to-end question answering for TIDBIT Workflow questions and subject answers to SME feedback.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#logic", "http://transltr.io/vocab#indigo" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Implement fully autonomous end-to-end question answering for TIDBIT Workflow questions and subject answers to SME feedback"
+    }, {
+      "id" : "http://transltr.io/milestones/2024_gamma",
+      "meta" : {
+        "definition" : {
+          "val" : "Natural Language Processing and User Interface. Enhance natural-language processing to decompose natural-language questions into a Knowledge Graph template and identify the desired output. Design and implement a graphical user interface to support a natural-language interface for simple questions and answers, answer lists, and the use of output from previous questions as input for new questions.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#presentation", "http://transltr.io/vocab#gamma" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Natural Language Processing and User Interface"
+    }, {
+      "id" : "http://transltr.io/milestones/8007_infrared",
+      "meta" : {
+        "definition" : {
+          "val" : "Social Side Effects.  A structured knowledge base of medication associated adverse event reports derived from unstructured commentary on social media, including Reddit and others.  API returns aggregate statistics computed from anonymized social media comments. ",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#knowledge", "http://transltr.io/vocab#infrared" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Social Side Effects"
+    }, {
+      "id" : "http://transltr.io/milestones/3012_indigo",
+      "meta" : {
+        "definition" : {
+          "val" : "Adapt Translator data model and related API specifications for diabetes and chemical biology data (with Knowledge Graph and Architecture subgroup).",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#indigo", "http://transltr.io/vocab#mediation" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Adapt Translator data model and related API specifications for diabetes and chemical biology data (with Knowledge Graph and Architecture subgroup)"
+    }, {
+      "id" : "http://transltr.io/milestones/3011_indigo",
+      "meta" : {
+        "definition" : {
+          "val" : "Implement APIs for diabetes data sources required for TIDBIT Workflows.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#knowledge", "http://transltr.io/vocab#indigo" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Implement APIs for diabetes data sources required for TIDBIT Workflows"
+    }, {
+      "id" : "http://transltr.io/milestones/9010_red",
+      "meta" : {
+        "definition" : {
+          "val" : "Incorporate Network-based quality metrics . We have developed an automated data quality assessment pipeline to assess the quality of the Translator datasets according to six quality dimensions: Syntactic Validity, Consistency, Licensing, Interoperability, Timeliness and Relevancy. We will apply the pipeline to the Translator datasets to provide a quality report for each of them that will be included in the Reasoner tools be used as criteria for selecting datasets to query based on their quality report. Additionally, we will implement network-based quality assessment metrics, based on prior work, to measure the Interlinking and Relevancy dimensions. These quality metrics and reports will inform the Translator tools about the quality of the datasets according to the different dimensions, which are important from the different use cases/research questions perspectives.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#red", "http://transltr.io/vocab#knowledge" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Incorporate Network-based quality metrics"
+    }, {
+      "id" : "http://transltr.io/milestones/10001_Near_IR",
+      "meta" : {
+        "definition" : {
+          "val" : "Mobile (SMS+) application for two-way communication of medication safety information. Sequence of questions prompt user to walk through a knowledge graph, specifying a disease, medication, and side effect. Information from the knowledge graph, as well as clinical and public side effect data lookups is presented to the user throughout the interaction as (1) prompts for further information or (2) a safety report that can be viewed and (a) saved for reference or (b) submitted to a clinical database. Inference algorithms support hypothesis generation and evaluation for rare and previously unreported side effects. Potential users are patients, clinicians, researchers, and staff in clinical trials and real world settings.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#infrared", "http://transltr.io/vocab#red", "http://transltr.io/vocab#other" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Mobile (SMS+) application for two-way communication of medication safety information"
+    }, {
+      "id" : "http://transltr.io/milestones/5079_orange",
+      "meta" : {
+        "definition" : {
+          "val" : "Develop evidence weighting and relevance ranking algorithms and standards to help prioritize edges for results return and evaluation.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#orange", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Develop evidence weighting and relevance ranking algorithms and standards to help prioritize edges for results return and evaluation"
+    }, {
+      "id" : "http://transltr.io/milestones/5078_orange",
+      "meta" : {
+        "definition" : {
+          "val" : "Complete mapping of SemMedDB into Translator Knowledge Graph / biolink standard",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#knowledge", "http://transltr.io/vocab#orange" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Complete mapping of SemMedDB into Translator Knowledge Graph / biolink standard"
+    }, {
+      "id" : "http://transltr.io/milestones/5092_orange",
+      "meta" : {
+        "definition" : {
+          "val" : "Extend FHIR to include granular disease profiles and pilot linkage/interoperability with biolink model",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#orange", "http://transltr.io/vocab#mediation" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Extend FHIR to include granular disease profiles and pilot linkage/interoperability with biolink model"
+    }, {
+      "id" : "http://transltr.io/milestones/3034_indigo",
+      "meta" : {
+        "definition" : {
+          "val" : "Implement and test methods to take explicit models of biology into account to answer questions about mechanism (i.e., inferring mediators from direct connections).",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#indigo", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Implement and test methods to take explicit models of biology into account to answer questions about mechanism (i"
+    }, {
+      "id" : "http://transltr.io/milestones/3033_indigo",
+      "meta" : {
+        "definition" : {
+          "val" : "Implement and test principled approaches to fact evaluation (e.g., assigning confidence scores to edges).",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#indigo", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Implement and test principled approaches to fact evaluation (e"
+    }, {
+      "id" : "http://transltr.io/milestones/5093_orange",
+      "meta" : {
+        "definition" : {
+          "val" : "Additional bicluster APIs for Translator workflows, including for chemiformatics data (CTD,FARES)",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#knowledge", "http://transltr.io/vocab#orange" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Additional bicluster APIs for Translator workflows, including for chemiformatics data (CTD,FARES)"
+    }, {
+      "id" : "http://transltr.io/milestones/1001_green",
+      "meta" : {
+        "definition" : {
+          "val" : "Pan-Translator Clinical Knowledge Source Pipeline. Work with Translator teams to publish a documented, standards-based, robust, patient-level clinical data analytic pipeline for exploiting the use of ICEES, COHD, and other clinical data types as Translator Knowledge Sources that can be used to answer meaningful translational questions and provide mechanistic insights into both common and rare diseases.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#knowledge", "http://transltr.io/vocab#green" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Pan-Translator Clinical Knowledge Source Pipeline"
+    }, {
+      "id" : "http://transltr.io/milestones/8004_infrared",
+      "meta" : {
+        "definition" : {
+          "val" : "Algorithms for generating English language paragraph summaries (with citations) of complex chains of reasoning corresponding to paths through a knowledge graph from sentences in biomedical literature abstracts. Development in collaboration with Blue Team.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#infrared", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Algorithms for generating English language paragraph summaries (with citations) of complex chains of reasoning corresponding to paths through a knowledge graph from sentences in biomedical literature abstracts"
+    }, {
+      "id" : "http://transltr.io/milestones/1011_green",
+      "meta" : {
+        "definition" : {
+          "val" : "SME Engagement. Regular engagement with clinicians and other SMEs.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#logic", "http://transltr.io/vocab#green" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "SME Engagement"
+    }, {
+      "id" : "http://transltr.io/milestones/1008_green",
+      "meta" : {
+        "definition" : {
+          "val" : "Chemotext-based Similarity Service. Implement the general similarity service available within the Chemotext portal as a Translator service.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#green", "http://transltr.io/vocab#knowledge" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Chemotext-based Similarity Service"
+    }, {
+      "id" : "http://transltr.io/milestones/4057_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "Build on RTX's automated cypher dump to also provide an automated, versioned/timestamped dump of the RTX KG in RDF or GraphML using KGX. Additionally use the KGX-based validation tool to set up an automated validation of the RTX KG and the automated generation of summary statistics on the KG.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#knowledge", "http://transltr.io/vocab#x-ray" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Build on RTX's automated cypher dump to also provide an automated, versioned/timestamped dump of the RTX KG in RDF or GraphML using KGX"
+    }, {
+      "id" : "http://transltr.io/milestones/2018_gamma",
+      "meta" : {
+        "definition" : {
+          "val" : "Spatiotemporal Reasoning Support. Extend the reasoning within ROBOKOP to allow for spatiotemporal inferences and move beyond simply queries of spatiotemporal data.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#logic", "http://transltr.io/vocab#gamma" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Spatiotemporal Reasoning Support"
+    }, {
+      "id" : "http://transltr.io/milestones/4067_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "Integrate HSDB: Hazardous Substances Data Bank (https://toxnet.nlm.nih.gov/cgi-bin/sis/htmlgen?HSDB)",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#knowledge", "http://transltr.io/vocab#x-ray" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Integrate HSDB: Hazardous Substances Data Bank (https://toxnet"
+    }, {
+      "id" : "http://transltr.io/milestones/7103_alpha",
+      "meta" : {
+        "definition" : {
+          "val" : "Develop and implement techniques, algorithms, and heuristics to allow for sophisticated reasoning *across* data sources (for example, potentially using type inference for semi-automatic or automatic constuction of sub-queries)",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#alpha", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Develop and implement techniques, algorithms, and heuristics to allow for sophisticated reasoning *across* data sources (for example, potentially using type inference for semi-automatic or automatic constuction of sub-queries)"
+    }, {
+      "id" : "http://transltr.io/milestones/4074_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "Adapt RTX Feedback mechanism for MVP",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#x-ray", "http://transltr.io/vocab#presentation" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Adapt RTX Feedback mechanism for MVP"
+    }, {
+      "id" : "http://transltr.io/milestones/9012_red",
+      "meta" : {
+        "definition" : {
+          "val" : "Generate a table of geographical locations for patients represented in the COHD dataset to extract environmental variables for. Aggregate and release COHD data with environmental exposures.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#architecture", "http://transltr.io/vocab#red" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Generate a table of geographical locations for patients represented in the COHD dataset to extract environmental variables for"
+    }, {
+      "id" : "http://transltr.io/milestones/9003_red",
+      "meta" : {
+        "definition" : {
+          "val" : "Natural Language Query Interface for Clinical Data.  Criteria2Query is a web-based natural language processing system we develoepd. Its live version is available at http://www.ohdsi.org/web/criteria2query/. Its source code, test data and evaluation results are available at https://github.com/OHDSI/Criteria2Query. Recently we have also been adding a library of computable atomic criteria to support knowledge-based criteria authoring and reuse. We have been through iterative software development and testing at the current phase of the translator project. We expect to complete integration and testing of the entire natural language query interface by the spring of 2019 and plan to conduct a series of use case development, testing, and implementation within the Translator network by the end of summer of 2019. ",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#presentation", "http://transltr.io/vocab#red" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Natural Language Query Interface for Clinical Data"
+    }, {
+      "id" : "http://transltr.io/milestones/1000_green",
+      "meta" : {
+        "definition" : {
+          "val" : "ICEES Validation. Analyze and evaluate ICEES API output and underlying clinical feature tables in the context of Green Team CQs and additional CQs designed to stress the prototype ICEES and test approaches for Reasoner ingest.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#green", "http://transltr.io/vocab#knowledge" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "ICEES Validation"
+    }, {
+      "id" : "http://transltr.io/milestones/4061_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "RxNorm (https://www.nlm.nih.gov/research/umls/rxnorm) Fully integrate full RxNorm knowledge base into Translator MVP (predicates include has_tradename/tradename_of, has_ingredient/ingredient_of, consists_of/constitutes, dose_form_of/has_dose_form, etc.).",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#knowledge", "http://transltr.io/vocab#x-ray" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "RxNorm (https://www"
+    }, {
+      "id" : "http://transltr.io/milestones/4056_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "focus on expanding and unifying KG development that will support the needs of the MVP and needs of the greater community. Having a robust KG that is maintained, documented, FAIR (FINDABLE, ACCESSIBLE, INTEROPERABLE AND RE-USABLE), with good/expert selection of underlying databases and resources, would be of immense value to researchers. Some who would use the UI/Interface, and others who would directly use the KG (ideally with some sort of API - at a minimum that would be Cypher).",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#knowledge", "http://transltr.io/vocab#x-ray" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "focus on expanding and unifying KG development that will support the needs of the MVP and needs of the greater community"
+    }, {
+      "id" : "http://transltr.io/milestones/6007_blue",
+      "meta" : {
+        "definition" : {
+          "val" : "Big GIM update. Given its current frequent and likely continued usage we will maintain and update Big GIM. Updates include 1) utilizing newer versions of underlying data, 2) the inclusion of new data sources for gene-gene interactions as they become available or useful in Translator, and 3) API implementations to continue to serve as an input to DDO and smooth usage in Translator workflows.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#knowledge", "http://transltr.io/vocab#blue" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Big GIM update"
+    }, {
+      "id" : "http://transltr.io/milestones/4050_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "In RTX, finalize initial machine learning approach (node2vec + logistic regression and random forests) for predicting which drugs can be repurposed for which diseases",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#x-ray", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "In RTX, finalize initial machine learning approach (node2vec + logistic regression and random forests) for predicting which drugs can be repurposed for which diseases"
+    }, {
+      "id" : "http://transltr.io/milestones/1007_green",
+      "meta" : {
+        "definition" : {
+          "val" : "Translator Services for Reasoning. Identify and contribute services supporting general reasoning to the Translator platform; these include operations such as generic ontological inference using the Whelk reasoner, name-to-identifier resolution, and enrichment services.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#mediation", "http://transltr.io/vocab#green" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Translator Services for Reasoning"
+    }, {
+      "id" : "http://transltr.io/milestones/6004_blue",
+      "meta" : {
+        "definition" : {
+          "val" : "HiView. Advanced hierarchical viewer to visualize hierarchical communities and pathways",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#presentation", "http://transltr.io/vocab#blue" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "HiView"
+    }, {
+      "id" : "http://transltr.io/milestones/1012_green",
+      "meta" : {
+        "definition" : {
+          "val" : "Scientific and Technical Communications. Work with Translator teams to publish additional peer-reviewed journal articles and other scientific communications on Translator products and services (e.g., Clinical Knowledge Source Pipeline, ICEES). Develop comprehensive documentation and a website on Translator platform services, for a target audience of prospective application developers.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#green", "http://transltr.io/vocab#other" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Scientific and Technical Communications"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/T_index",
+      "meta" : {
+        "definition" : {
+          "val" : "MILESTONE",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#layer", "http://transltr.io/vocab#team" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "MILESTONE"
+    }, {
+      "id" : "http://transltr.io/milestones/4073_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "Develop interface for answering complex questions by posing simpler component questions to multiple reasoners and chaining queries and answers into logic chain and answer",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#x-ray", "http://transltr.io/vocab#presentation" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Develop interface for answering complex questions by posing simpler component questions to multiple reasoners and chaining queries and answers into logic chain and answer"
+    }, {
+      "id" : "http://transltr.io/milestones/8002_infrared",
+      "meta" : {
+        "definition" : {
+          "val" : "Graph embedding technique for interpreting genetic interactions in PPI networks.  Implementation of neural network architecture for semi-supervised graph learning on GNBR. Evaluate graph embedding and data fingerprints for indexing and grouping user action patterns.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#infrared", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Graph embedding technique for interpreting genetic interactions in PPI networks"
+    }, {
+      "id" : "http://transltr.io/milestones/9001_red",
+      "meta" : {
+        "definition" : {
+          "val" : "Temporal Data Quality Analysis. We will investigate a temporal instability in COHD. We will develop metrics to characterize clinical data trends at the domain (e.g., condition, drug, observation, procedure, etc) and the concept (e.g., diabetes or A1c) levels, respectively, and correlate the trends with known organizational changes over time to assess how clinical data instability might be influenced by people and organizational issues.  We hypothesize this study can inform more appropriate use of clinical data in the translator consortia.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#red", "http://transltr.io/vocab#knowledge" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Temporal Data Quality Analysis"
+    }, {
+      "id" : "http://transltr.io/milestones/4068_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "Integrate CTD: Comparative Toxicogenomics Database (note: CTDBase is already being used by ROBOKOP) (https://toxnet.nlm.nih.gov/newtoxnet/ctd.htm)",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#knowledge", "http://transltr.io/vocab#x-ray" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Integrate CTD: Comparative Toxicogenomics Database (note: CTDBase is already being used by ROBOKOP) (https://toxnet"
+    }, {
+      "id" : "http://transltr.io/milestones/4059_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "define and implement a standard for incorporating structured provenance information (including literature citations and traceable assertions) into the Translator KG (see biolink-model issue #66), and including date this relationship was last updated information in the KG.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#knowledge", "http://transltr.io/vocab#x-ray" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "define and implement a standard for incorporating structured provenance information (including literature citations and traceable assertions) into the Translator KG (see biolink-model issue #66), and including date this relationship was last updated information in the KG"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/T_orange",
+      "meta" : {
+        "definition" : {
+          "val" : "",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : ""
+    }, {
+      "id" : "http://transltr.io/milestones/9007_red",
+      "meta" : {
+        "definition" : {
+          "val" : "Investigate using differentially private models of EHR data to enrich the FDAs adverse event reporting system. The FDA Adverse Event Reporting system has played a central role in drug safety surveillance for decades despite limitations in the quality and depth of data available. Modern differential privacy models allow for the release of rich clinical data without comprising security. There is an opportunity to use differentially private models applied to EHR data to enrich publicly available resources. We believe that publicly releasing a companion dataset of privacy secured EHR data to accompany the FDA AERS will amplify the discovery process. Further, such a release and integrative analysis vision is in scope to the goals of the NCATS translator. This work will be done in collaboration in Roxana Geambasu (Professor of Computer Science at Columbia University) and her team who is externally funded. ",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#red", "http://transltr.io/vocab#knowledge" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Investigate using differentially private models of EHR data to enrich the FDAs adverse event reporting system"
+    }, {
+      "id" : "http://transltr.io/milestones/7102_alpha",
+      "meta" : {
+        "definition" : {
+          "val" : "Continue working on improving performance for interactive use of the mediKanren reasoner",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#logic", "http://transltr.io/vocab#alpha" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Continue working on improving performance for interactive use of the mediKanren reasoner"
+    }, {
+      "id" : "http://transltr.io/milestones/4079_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "Extend RTX KG to include data-driven pathways and protein complex structures from molecular networks (e.g., BigGIM)",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#knowledge", "http://transltr.io/vocab#x-ray" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Extend RTX KG to include data-driven pathways and protein complex structures from molecular networks (e"
+    }, {
+      "id" : "http://transltr.io/milestones/4049_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "In RTX, leverage unique KSs developed by colored/all teams to increase biological accuracy of path prioritization and bioentity discover. (eg COHD, LilGIM, etc.)",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#x-ray", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "In RTX, leverage unique KSs developed by colored/all teams to increase biological accuracy of path prioritization and bioentity discover"
+    }, {
+      "id" : "http://transltr.io/milestones/4069_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "Specific KGscombining information from the RTX KG and other KGs or RTs such as Monarch, ROBOKOP, Bio2RDF, etc. could in principle be created for specific domains (e.g., Fanconi anemia). These would be more efficient (creation time, update time, compute times, storage, curation effort), less likely to have false positives, and permit custom-weighting of edges relevant to the field of inquiry (e.g., edges from atropine might have very different weights if the domain is myopia prevention versus cardiac failure).",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#knowledge", "http://transltr.io/vocab#x-ray" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Specific KGscombining information from the RTX KG and other KGs or RTs such as Monarch, ROBOKOP, Bio2RDF, etc"
+    }, {
+      "id" : "http://transltr.io/milestones/1006_green",
+      "meta" : {
+        "definition" : {
+          "val" : "Translator Services for Drug Repurposing. Explore the use of Knowledge Graphs from the Translator platform as data sources in the generation of drug-repurposing hypotheses. Augment the Chemotext hypothesis-generating platform with Translator services, thereby supporting Chemotext an external Translator application.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#green", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Translator Services for Drug Repurposing"
+    }, {
+      "id" : "http://transltr.io/milestones/1009_green",
+      "meta" : {
+        "definition" : {
+          "val" : "Tox21 Enricher. Work with NIEHS to evaluate the use of the Tox21 Enricher data to address TIDBIT workflow modules (e.g., module 3, TIDBIT Workflow 1). Work with NIEHS to adopt Translator platform methods and technologies.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#green", "http://transltr.io/vocab#knowledge" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Tox21 Enricher"
+    }, {
+      "id" : "http://transltr.io/milestones/1003b_green",
+      "meta" : {
+        "definition" : {
+          "val" : "Chemical Exposures - Identify and pursue key exposures (e.g., airborne pollutants) and capabilities (e.g., varying space and time resolutions) in the context of meaningful translational science questions. Provide adequate spatio-temporal data to support reasoning requirements.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#green", "http://transltr.io/vocab#knowledge" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Chemical Exposures - Identify and pursue key exposures (e"
+    }, {
+      "id" : "http://transltr.io/milestones/6001_blue",
+      "meta" : {
+        "definition" : {
+          "val" : "The Data-Driven Ontology Toolkit (DDOT). Given a disease or a set of genes associated with it, construct a Data-Driven Ontology (DDO), a hierarchical organization of molecular components, functions and pathways. The DDO uses algorithms that detect the hierarchical community structure present in multiple biological networks (protein-protein, transcriptional, metabolic, etc). The resulting ontology can be viewed in any ontology browser, including HiView (see Milestone below).",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#blue", "http://transltr.io/vocab#knowledge" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "The Data-Driven Ontology Toolkit (DDOT)"
+    }, {
+      "id" : "http://transltr.io/milestones/4046_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "Continue contributing RTX components of workflow solutions for the MVP",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#logic", "http://transltr.io/vocab#x-ray" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Continue contributing RTX components of workflow solutions for the MVP"
+    }, {
+      "id" : "http://transltr.io/milestones/7105_alpha",
+      "meta" : {
+        "definition" : {
+          "val" : "Provide explanatory reasoning, including deep logical evidence trees (proofs), to infer/explain the underlying causes of undiagnosed cases for patients with rare diseases.  Add reasoning useful for diagnosis and explanation of the underlying causes of rare diseases, based on a combination of input from NCATS SMEs & hackathons, MVP workflows, and cases seen in the PMI and at other medical institutions",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#alpha", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Provide explanatory reasoning, including deep logical evidence trees (proofs), to infer/explain the underlying causes of undiagnosed cases for patients with rare diseases"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#inSubset",
+      "type" : "PROPERTY",
+      "lbl" : "in_subset"
+    }, {
+      "id" : "http://transltr.io/milestones/8003_infrared",
+      "meta" : {
+        "definition" : {
+          "val" : "IRIS intent resolution sequences for MVP workflow, RTX, and NetANT.  Generate wizard of Oz demonstration of MVP workflows with working UI input and simulated results from TIDBITS.   Replace front end electron display with Twilio for IRIS SMS messaging service.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#presentation", "http://transltr.io/vocab#infrared" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "IRIS intent resolution sequences for MVP workflow, RTX, and NetANT"
+    }, {
+      "id" : "http://transltr.io/milestones/8009_infrared",
+      "meta" : {
+        "definition" : {
+          "val" : "Upgrade GNBR REST API to Knowledge Beacon API 2.0 to harmonize other with knowledge sources. Make GNBR available on NDEX. Add GNBR to SmartAPI and Knowledge Beacon Aggregator. Integrate GNBR with Biolink text search.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#mediation", "http://transltr.io/vocab#infrared" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Upgrade GNBR REST API to Knowledge Beacon API 2"
+    }, {
+      "id" : "http://transltr.io/milestones/4063_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "Integrate Cellbase (http://bioinfo.hpc.cam.ac.uk/cellbase/webservices/#!/Gene/getAll)",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#knowledge", "http://transltr.io/vocab#x-ray" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Integrate Cellbase (http://bioinfo"
+    }, {
+      "id" : "http://transltr.io/milestones/4051_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "In RTX, utilize newly developed graph wavelet and heat-flow techniques developed at Oregon State to vectorize paths for more sophisticated encoding, ranking, and learning on general paths through the knowledge graph.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#logic", "http://transltr.io/vocab#x-ray" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "In RTX, utilize newly developed graph wavelet and heat-flow techniques developed at Oregon State to vectorize paths for more sophisticated encoding, ranking, and learning on general paths through the knowledge graph"
+    }, {
+      "id" : "http://transltr.io/milestones/2025_gamma",
+      "meta" : {
+        "definition" : {
+          "val" : "Interactive Interface. Design and implement a graphical user interface to select and manipulate an algorithmic decomposition of a complex question. Provide capabilities to allow the user to modify the question decomposition, manipulate options at each step (e.g., exclude Knowledge Sources), and view the output from each step.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#gamma", "http://transltr.io/vocab#presentation" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Interactive Interface"
+    }, {
+      "id" : "http://transltr.io/milestones/4066_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "Integrate Household Products Database (https://householdproducts.nlm.nih.gov/)  links products to CAS numbers of ingredients and unstructured text on health effects",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#knowledge", "http://transltr.io/vocab#x-ray" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Integrate Household Products Database (https://householdproducts"
+    }, {
+      "id" : "http://transltr.io/milestones/4071_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "Complete web-based tool for comparing output of multiple reasoners",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#x-ray", "http://transltr.io/vocab#presentation" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Complete web-based tool for comparing output of multiple reasoners"
+    }, {
+      "id" : "http://transltr.io/milestones/7097_alpha",
+      "meta" : {
+        "definition" : {
+          "val" : "Collect real-world queries from scientists/clinician-scientists who interact with patients (for example, the Alzheimer drug discovery/toxicity queries involving tau and SH3 domains).  We will use these queries to help improve the mediKanren reasoner, give feedback to other reasoner teams about how their tools performed on the problem (at least when used by us), better understand gaps in current data sources or data standardization, etc.  We will share a curated list of these queries with all the teams, to the extent that confidentiality restrictions allow.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#alpha", "http://transltr.io/vocab#other" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Collect real-world queries from scientists/clinician-scientists who interact with patients (for example, the Alzheimer drug discovery/toxicity queries involving tau and SH3 domains)"
+    }, {
+      "id" : "http://transltr.io/milestones/4060_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "OpenFDA (open.fda.gov)  Fully integrate OpenFDA into the Translator MVP. This will provide additional knowledge and data regarding drugs, devices, and food ingredients (including mappings for identifier types like NDC, SPL, UNII, and RxNorm CUI).",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#knowledge", "http://transltr.io/vocab#x-ray" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "OpenFDA (open"
+    }, {
+      "id" : "http://transltr.io/milestones/9005_red",
+      "meta" : {
+        "definition" : {
+          "val" : "Build and release API for mechanistic adverse reaction database: DATE. DATE links drugs to tissue-specific target pathways. Downstream effects of targeted proteins is essential to drug design. We introduce a data-driven method named DATE, which integrates drug-target relationships with gene expression, protein-protein interaction, and pathway annotation data to connect Drugs to target pAthways by the Tissue Expression. 467,396 connections for 1,034 drugs and 954 pathways in 259 tissues/cell lines available. Tasks will include: creating a REST API according to Knowledge Beacon API 2.0 for integration with other knowledge sources. Add DATE to the Knowledge Beacon Aggregator.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#mediation", "http://transltr.io/vocab#red" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Build and release API for mechanistic adverse reaction database: DATE"
+    }, {
+      "id" : "http://transltr.io/milestones/2022_gamma",
+      "meta" : {
+        "definition" : {
+          "val" : "API-level operations. Maintain API-level operation of natural language processing, knowledge graph construction, and reasoning engines.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#presentation", "http://transltr.io/vocab#gamma" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "API-level operations"
+    }, {
+      "id" : "http://transltr.io/milestones/2017_gamma",
+      "meta" : {
+        "definition" : {
+          "val" : "Knowledge Graph as a Validation Tool. Develop approaches to use the Knowledge Graph as a validation tool. Remove targeted edges from the knowledge graph (e.g., 'drug treats disease') and then apply a manually or automatically generated workflow to attempt to predict the removed edge and thereby provide cross-validation of workflows.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#gamma", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Knowledge Graph as a Validation Tool"
+    }, {
+      "id" : "http://transltr.io/milestones/3031_indigo",
+      "meta" : {
+        "definition" : {
+          "val" : "Improve accuracy of the UV reinforcement-learning reasoner prototype by taking as much information as possible into account (i.e., consider multiple reasoning paths and metadata on connections, as opposed to a single path that only considers the presence of connections).",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#indigo", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Improve accuracy of the UV reinforcement-learning reasoner prototype by taking as much information as possible into account (i"
+    }, {
+      "id" : "http://transltr.io/milestones/2014_gamma",
+      "meta" : {
+        "definition" : {
+          "val" : "Automated Query Planning. Develop an automated approach for preservice-call reasoning. Given a high-level question, create a series of analysis plans, score the plans, show the ranked plans to the user, and let the user select and/or or modify a plan for use as the analysis template for the question. ",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#logic", "http://transltr.io/vocab#gamma" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Automated Query Planning"
+    }, {
+      "id" : "http://transltr.io/milestones/1004_green",
+      "meta" : {
+        "definition" : {
+          "val" : "New Workflows - USMLE questions, Clinical Knowledge Sources, SME questions. Working with SMEs, develop new workflows and CQs using a variety of resources (e.g., USMLE questions), leveraging clinical data sets (e.g., COHD, ICEES), and targeting specific user communities (e.g., diabetetes, DILI). Use 'ground truth' answers/errors to 'train' Reasoners and support Gamma efforts to automate processing of natural-language questions to machine questions and reasoning over varied Knowledge Sources. ",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#green", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "New Workflows - USMLE questions, Clinical Knowledge Sources, SME questions"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/T_",
+      "meta" : {
+        "definition" : {
+          "val" : "",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "CLASS",
+      "lbl" : ""
+    }, {
+      "id" : "http://transltr.io/milestones/3032_indigo",
+      "meta" : {
+        "definition" : {
+          "val" : "Adapt UV reasoner to use knowledge sources that are integrated with the Translator architecture wherever possible.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#logic", "http://transltr.io/vocab#indigo" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Adapt UV reasoner to use knowledge sources that are integrated with the Translator architecture wherever possible"
+    }, {
+      "id" : "http://transltr.io/milestones/4077_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "for new KS's that are added, utilize Translator APIs for KS discovery and mediating access to them.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#x-ray", "http://transltr.io/vocab#mediation" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "for new KS's that are added, utilize Translator APIs for KS discovery and mediating access to them"
+    }, {
+      "id" : "http://transltr.io/milestones/8001_infrared",
+      "meta" : {
+        "definition" : {
+          "val" : "Browser for taking self directed or algorithmically assisted walks through knowledge graphs, building datasets, and launching apps (i.e. reasoner algorithms) that consume datasets as input. Records knowledge graph access patterns that can be used to train reasoner controller.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#presentation", "http://transltr.io/vocab#infrared" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Browser for taking self directed or algorithmically assisted walks through knowledge graphs, building datasets, and launching apps (i"
+    }, {
+      "id" : "http://transltr.io/milestones/5077_orange",
+      "meta" : {
+        "definition" : {
+          "val" : "Work with reasoner and color teams to continue development and implementation of the BioLink model standard and knowledge graph exchange format",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#mediation", "http://transltr.io/vocab#orange" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Work with reasoner and color teams to continue development and implementation of the BioLink model standard and knowledge graph exchange format"
+    }, {
+      "id" : "http://transltr.io/milestones/9011_red",
+      "meta" : {
+        "definition" : {
+          "val" : "Start-To-End demonstration of Data2Services + Data Quality + Reasoner Pipeline      We will deploy our Data2Services and Data Quality Assessment frameworks on the NCATS infrastructure for a wide set of priority datasets. We will collaborate with receptive Reasoner groups to demonstrate their utility in answering key competency questions, including weighting of answers based on quality assessments. Here are some of the main ongoing and desired developments over the next year based on discussions with other teams at the May Hackathon:      Ongoing: Semantic level prevalence and co-occurrence analysis incorporating concept hierarchy and COHD API enhancements to choose concepts at the appropriate hierarchical level (X-ray)   Desired: Graph-based analysis of concept associations to identify confounding factors (Purple)   Desired: SmartAPI documentation of input and output data types to enhance semantic interoperability and integration with BioThings Explorer (Orange)   Desired: COHD front end user interface and network visualization to allow users to manually explore COHD data (Blue)     Other general planned directions for enhancing COHD that are not associated with collaborations or inspired by discussion with other Translator teams but would nevertheless benefit Translator:   Restricting the temporal window for co-occurrences   Stratifying data by demographics (ethnicity, race, sex, and age) ",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#red", "http://transltr.io/vocab#architecture" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Start-To-End demonstration of Data2Services + Data Quality + Reasoner Pipeline"
+    }, {
+      "id" : "http://transltr.io/milestones/3010_indigo",
+      "meta" : {
+        "definition" : {
+          "val" : "Implement APIs for chemical biology data sources required for TIDBIT Workflows (specific example: Small Molecule Pathway Database, smpdb.ca).",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#indigo", "http://transltr.io/vocab#knowledge" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Implement APIs for chemical biology data sources required for TIDBIT Workflows (specific example: Small Molecule Pathway Database, smpdb"
+    }, {
+      "id" : "http://transltr.io/milestones/6003_blue",
+      "meta" : {
+        "definition" : {
+          "val" : "NetAnt Service. Develop an NLP-based, context aware gene set annotation service to interpret novel biological processes discovered by data-driven ontologies (DDO) and other reasoners. The service will be made available to the translator via REST API.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#blue", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "NetAnt Service"
+    }, {
+      "id" : "http://transltr.io/milestones/5091_orange",
+      "meta" : {
+        "definition" : {
+          "val" : "Extension of API framework to include lists and sets of entities and other complex inputs",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#mediation", "http://transltr.io/vocab#orange" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Extension of API framework to include lists and sets of entities and other complex inputs"
+    }, {
+      "id" : "http://transltr.io/milestones/6009_blue",
+      "meta" : {
+        "definition" : {
+          "val" : "Response redundancy analysis algorithm. Design a statistical approach to classify answers to a query into redundant groups. An answer to a query can be seen as a path through various knowledge sources and reasoning steps. We will encode each answer to a query as such a path encoded in JSON; the data fingerprinting approach then allows fingerprint similarity to be used as a metric for query redundancy. This should be useful as a general method for grouping and ranking answers for presentation to the user. ",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#blue", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Response redundancy analysis algorithm"
+    }, {
+      "id" : "http://transltr.io/milestones/5090_orange",
+      "meta" : {
+        "definition" : {
+          "val" : "Application of machine learning knowledge graph completion methods on integrated Translator knowledge graphs (integrated using kgx, pulling from different teams knowledge graphs)",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#orange", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Application of machine learning knowledge graph completion methods on integrated Translator knowledge graphs (integrated using kgx, pulling from different teams knowledge graphs)"
+    }, {
+      "id" : "http://transltr.io/milestones/9002_red",
+      "meta" : {
+        "definition" : {
+          "val" : "Deep Relation Analysis for Columbia Open Health Data. Another extension to the COHD project is to integrate public biomedical knowledge of established hierarchical and semantic relations among conditions, drugs, adverse event outcomes, genes, biological pathways, and so on, with the data in COHD. This will allow us to uncover meaningful or novel co-occurrence frequency patterns. This includes multiple knowledge-based enrichment analyses for clinical data. We will verify the patterns in the large OHDSI network by collaborating with other data source providers. The significance of this project is that it can help us aggregate scattered statistics due to the highly specified and fragmented concept definitions and enable us to perform co-occurrence analysis at the semantic level and leverage knowledge to support it. ",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#red", "http://transltr.io/vocab#knowledge" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Deep Relation Analysis for Columbia Open Health Data"
+    }, {
+      "id" : "http://transltr.io/milestones/2021_gamma",
+      "meta" : {
+        "definition" : {
+          "val" : "Functional Graph Paradigm. Create a new paradigm for an 'analysis pipeline on graphs'. Extend Translator service operations beyond the level of nodes and edges. Develop services to select a Knowledge Graph, perform operations on the graph, and return a new graph; for example, support capabilities to expand around a node, cull edges, prune graphs, etc.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#gamma", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Functional Graph Paradigm"
+    }, {
+      "id" : "http://transltr.io/milestones/7098_alpha",
+      "meta" : {
+        "definition" : {
+          "val" : "Collect real-world queries from rare disease cases (eg from Undiagnosed Diseases Network), focusing especially on diagnosis of rare diseases, in addition to underlying cause(s) and treatments.  We will use these queries to help improve the mediKanren reasoner, give feedback to other reasoner teams about how their tools performed on the problem (at least when used by us), better understand gaps in current data sources or data standardization, etc.  We will share a curated list of these queries with all the teams, to the extent that confidentiality restrictions allow.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#other", "http://transltr.io/vocab#alpha" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Collect real-world queries from rare disease cases (eg from Undiagnosed Diseases Network), focusing especially on diagnosis of rare diseases, in addition to underlying cause(s) and treatments"
+    }, {
+      "id" : "http://transltr.io/milestones/1010_green",
+      "meta" : {
+        "definition" : {
+          "val" : "Genetic Knowledge Source.  Investigate and evaluate existing genetic data sources. Provision one or more to satisfy Gamma milestones.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#green", "http://transltr.io/vocab#knowledge" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Genetic Knowledge Source"
+    }, {
+      "id" : "http://transltr.io/milestones/4047_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "In RTX, modularize individual steps of reasoning for ease of interaction with other reasoners and integration into the MVP.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#logic", "http://transltr.io/vocab#x-ray" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "In RTX, modularize individual steps of reasoning for ease of interaction with other reasoners and integration into the MVP"
+    }, {
+      "id" : "http://transltr.io/milestones/2028_gamma",
+      "meta" : {
+        "definition" : {
+          "val" : "Scientific and Technical Communications. Work with Translator teams to publish additional peer-reviewed journal articles and other scientific communications on Translator products and services (e.g., ROBOKOP). Develop comprehensive documentation and a website on Translator platform services, for a target audience of prospective application developers.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#gamma", "http://transltr.io/vocab#other" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Scientific and Technical Communications"
+    }, {
+      "id" : "http://transltr.io/milestones/4064_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "Integrate  CEBS (https://tools.niehs.nih.gov/cebs3/ui/)  Chemical Effects in Biological Systems (National Toxicology Program)",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#x-ray", "http://transltr.io/vocab#knowledge" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Integrate  CEBS (https://tools"
+    }, {
+      "id" : "http://transltr.io/milestones/7100_alpha",
+      "meta" : {
+        "definition" : {
+          "val" : "Perform specialized reasoning and inference for patients with chromosomal disorders, extending new techniques and reasoning approaches currently being developed at PMI.  Chromosomal disorders are an area of rare disease that traditionally has offered few tools or techniques for understanding causes and potential treatments for disease phenotypes, due to the number of genes involved.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#logic", "http://transltr.io/vocab#alpha" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Perform specialized reasoning and inference for patients with chromosomal disorders, extending new techniques and reasoning approaches currently being developed at PMI"
+    }, {
+      "id" : "http://transltr.io/milestones/4054_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "Investigate automated, general purpose path ranking based on: source/target node type and edge types, desired overall effect (eg. increase/decrease quantities, most/least surprising, most/least well-studied), and chosen data sources and statistical tests.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#x-ray", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Investigate automated, general purpose path ranking based on: source/target node type and edge types, desired overall effect (eg"
+    }, {
+      "id" : "http://transltr.io/milestones/8012_Infrared",
+      "meta" : {
+        "definition" : {
+          "val" : "Continue development and implementation of PharmGKB curator generated workflow and question instances.  Engage PharmGKB curators to evaluate usability of tools and value of results.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#logic", "http://transltr.io/vocab#infrared" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Continue development and implementation of PharmGKB curator generated workflow and question instances"
+    }, {
+      "id" : "http://transltr.io/milestones/6002_blue",
+      "meta" : {
+        "definition" : {
+          "val" : "TIpred reasoning engine. Reasoner for data translation based on the technique of few-shot-learning. Few-shot learning is a machine learning framework that we are developing to efficiently predict drug response from the molecular profiles of cell lines and patients.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#blue", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "TIpred reasoning engine"
+    }, {
+      "id" : "http://transltr.io/milestones/4053_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "In RTX, combine statistical and machine learning computations for general path ranking",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#x-ray", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "In RTX, combine statistical and machine learning computations for general path ranking"
+    }, {
+      "id" : "http://transltr.io/milestones/9009_red",
+      "meta" : {
+        "definition" : {
+          "val" : "Semantically Enhance Data2Services. The Data2Services framework will automatically produce semantic mappings between the source data and the target data model. However, the framework cannot tap into existing terminologies and ontologies to annotate data with specific concepts and relations. To address this limitation, we will use (semi)-automated methods that use a combination of i) NLP-based concept recognition, ii) profiling of the value space, range and lexical datatypes, and iii) machine learning method to concept assignment.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#red", "http://transltr.io/vocab#knowledge" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Semantically Enhance Data2Services"
+    }, {
+      "id" : "http://transltr.io/milestones/7106_alpha",
+      "meta" : {
+        "definition" : {
+          "val" : "Tie into Team Alphas close connection with the Undiagnosed Diseases Network (UDN) to apply the reasoner tools from all teams to actual rare disease patient data.  (Medical confidentiality requirements may limit which of these data we can share with the other teams, but we would aim for broad de-identified access.)  Continue encouraging use of Translator/Reasoner platform within other organizations working on precision medicine, and share our experiences and expertise with these users",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#presentation", "http://transltr.io/vocab#alpha" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Tie into Team Alphas close connection with the Undiagnosed Diseases Network (UDN) to apply the reasoner tools from all teams to actual rare disease patient data"
+    }, {
+      "id" : "http://transltr.io/milestones/2020_gamma",
+      "meta" : {
+        "definition" : {
+          "val" : "Genetic Data Support. Support reasoning on large genetic data sources such as GWAS catalogs, allele frequency databases, and LD panels to enabling new computational capabilities (e.g. integrated GWAS analysis using data from DILI and UNC's Obesity Hub).",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#knowledge", "http://transltr.io/vocab#gamma" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Genetic Data Support"
+    }, {
+      "id" : "http://transltr.io/milestones/2015_gamma",
+      "meta" : {
+        "definition" : {
+          "val" : "Smarter Edge Inference. Incorporate into ROBOKOP novel reasoning approaches (e.g., incorporation into ranking of enrichment, similarity, ontological [logical] compositions, predicate discovery) to reduce and refine the answer space.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#gamma", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Smarter Edge Inference"
+    }, {
+      "id" : "http://transltr.io/milestones/4076_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "obtain user feedback on usefulness of query responses in RTX, and update RTX reasoning engine and response filtering layer to automatically use bulk feedback data in order to update reasoning algorithm hyperparameters.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#x-ray", "http://transltr.io/vocab#presentation" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "obtain user feedback on usefulness of query responses in RTX, and update RTX reasoning engine and response filtering layer to automatically use bulk feedback data in order to update reasoning algorithm hyperparameters"
+    }, {
+      "id" : "http://transltr.io/milestones/8008_infrared",
+      "meta" : {
+        "definition" : {
+          "val" : "Develop clinical applications of BDT (diagnosis, therapy choice, or prognosis).  Generate user personas for clinicians as potential users of the translatorMDs in the middle of providing care vs. and including MDs in the middle of looking for good unsolved research questions.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#presentation", "http://transltr.io/vocab#infrared" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Develop clinical applications of BDT (diagnosis, therapy choice, or prognosis)"
+    }, {
+      "id" : "http://transltr.io/milestones/2027_gamma",
+      "meta" : {
+        "definition" : {
+          "val" : "QI, SME Engagement. Continue to collaborate with QI and SMEs to incorporate new question-answering requirements and validate 'answers' to TIDBIT workflow questions.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#gamma", "http://transltr.io/vocab#logic" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "QI, SME Engagement"
+    }, {
+      "id" : "http://transltr.io/milestones/4065_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "Integrate TOXNET (https://toxnet.nlm.nih.gov), which federates multiple databases including:",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#knowledge", "http://transltr.io/vocab#x-ray" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Integrate TOXNET (https://toxnet"
+    }, {
+      "id" : "http://transltr.io/milestones/4070_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "Complete collaborative development of complete API for inter-reasoner communication",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#mediation", "http://transltr.io/vocab#x-ray" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Complete collaborative development of complete API for inter-reasoner communication"
+    }, {
+      "id" : "http://transltr.io/milestones/7099_alpha",
+      "meta" : {
+        "definition" : {
+          "val" : "Generate potential TIDBIT queries/answers based on de-identified patient cases focusing especially on diagnosis of rare diseases, in addition to underlying cause(s) and treatments.  These queries/answers will also be used to help improve performance of the reasoners, and identifying gaps in knowledge sources and standardization.  Since we have access to a large number of cases that now have diagnoses (and often data on the effectiveness of treatments), we have ground truth data, which is critical for assessing effectiveness of reasoning.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#other", "http://transltr.io/vocab#alpha" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Generate potential TIDBIT queries/answers based on de-identified patient cases focusing especially on diagnosis of rare diseases, in addition to underlying cause(s) and treatments"
+    }, {
+      "id" : "http://transltr.io/milestones/4048_x-ray",
+      "meta" : {
+        "definition" : {
+          "val" : "In RTX, continue creation of toolkit questions (such as 1,2, and 3 hop questions) that can be combined/chained together for more complex question answering.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://transltr.io/vocab#logic", "http://transltr.io/vocab#x-ray" ]
+      },
+      "type" : "CLASS",
+      "lbl" : "In RTX, continue creation of toolkit questions (such as 1,2, and 3 hop questions) that can be combined/chained together for more complex question answering"
+    } ],
+    "edges" : [ {
+      "sub" : "http://transltr.io/milestones/2026_gamma",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8011_Infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/5077_orange",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6005_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/8003_infrared",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4079_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/6010_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2014_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/6001_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/7103_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/6009_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/5081_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/5089_orange",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/9007_red"
+    }, {
+      "sub" : "http://transltr.io/milestones/6003_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8003_infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/1007_green",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6005_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6010_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2015_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/2014_gamma",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6009_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6003_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/7106_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/2023_gamma",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6004_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/1007_green",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6002_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/1005_green",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4047_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/6010_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/5079_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/10001_Near_IR",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/9002_red"
+    }, {
+      "sub" : "http://transltr.io/milestones/4049_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/1001_green"
+    }, {
+      "sub" : "http://transltr.io/milestones/6001_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6005_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/4069_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/5084_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/6001_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/7105_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/6010_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2016_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/3022_indigo",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6090_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6005_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8009_infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/1007_green",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6003_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/8006_infrared",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6001_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6001_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6004_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/5093_orange",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/2019_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/4056_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/5080_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/6010_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2017_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/6001_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/7104_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/6005_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8002_infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/4054_x-ray",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6009_blue"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/T_index",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://purl.obolibrary.org/obo/T_Clinrelated"
+    }, {
+      "sub" : "http://transltr.io/milestones/9007_red",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/5089_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/6002_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/1007_green"
+    }, {
+      "sub" : "http://transltr.io/milestones/6009_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4071_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/4063_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6008_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/2016_gamma",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6009_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/8004_infrared",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6003_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/9010_red",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6009_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/9007_red",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/1001_green"
+    }, {
+      "sub" : "http://transltr.io/milestones/1000_green",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/9002_red"
+    }, {
+      "sub" : "http://transltr.io/milestones/1004_green",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8010_Infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/7105_alpha",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/2020_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/1011_green",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2027_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/4061_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6006_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/10001_Near_IR",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8010_Infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/6001_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/7101_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/6003_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8001_infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/5093_orange",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/7105_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/8003_infrared",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4078_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/4050_x-ray",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6002_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/3033_indigo",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6009_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/2024_gamma",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/9003_red"
+    }, {
+      "sub" : "http://transltr.io/milestones/2021_gamma",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6001_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6007_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8002_infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/8005_infrared",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/3023_indigo"
+    }, {
+      "sub" : "http://transltr.io/milestones/10001_Near_IR",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/9007_red"
+    }, {
+      "sub" : "http://transltr.io/milestones/2019_gamma",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/7097_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/4069_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6011_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6001_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/5077_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/6008_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4063_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/7103_alpha",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6009_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/1001_green",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4049_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/6003_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6001_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/7101_alpha",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6006_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/9012_red",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/9012_red"
+    }, {
+      "sub" : "http://transltr.io/milestones/6010_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4049_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/6005_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6004_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/7101_alpha",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6007_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/1010_green",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/4062_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/6005_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8001_infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/2016_gamma",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/3033_indigo"
+    }, {
+      "sub" : "http://transltr.io/milestones/9012_red",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/10001_Near_IR"
+    }, {
+      "sub" : "http://transltr.io/milestones/6011_blue",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/2026_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/4073_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2025_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/4049_x-ray",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6010_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/8002_infrared",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6007_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6003_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6002_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/5083_orange",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/5089_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/7100_alpha",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6011_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/9001_red",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/10001_Near_IR"
+    }, {
+      "sub" : "http://transltr.io/milestones/9001_red",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/9012_red"
+    }, {
+      "sub" : "http://transltr.io/milestones/9012_red",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/9011_red"
+    }, {
+      "sub" : "http://transltr.io/milestones/8001_infrared",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6011_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/2021_gamma",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6003_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/10001_Near_IR",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/9006_red"
+    }, {
+      "sub" : "http://transltr.io/milestones/4070_x-ray",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6005_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6005_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4070_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/4050_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8002_infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/6009_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4054_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/1003a_green",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2018_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/8001_infrared",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6010_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/2021_gamma",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6002_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/8002_infrared",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6005_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6010_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/7103_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/6007_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8001_infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/6009_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/3033_indigo"
+    }, {
+      "sub" : "http://transltr.io/milestones/4049_x-ray",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6011_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6009_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/7103_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/4069_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6008_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/3021_indigo",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/1011_green"
+    }, {
+      "sub" : "http://transltr.io/milestones/6007_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4069_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/2018_gamma",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/1003_green"
+    }, {
+      "sub" : "http://transltr.io/milestones/4069_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6007_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6007_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/7101_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/6003_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2020_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/4067_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6006_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/7105_alpha",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/7100_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/4079_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8003_infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/3012_indigo",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4056_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/8009_infrared",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/5077_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/6007_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/7100_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/6003_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2021_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/6005_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/5086_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/4069_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6009_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/3022_indigo",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6010_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/2025_gamma",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4073_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/3012_indigo",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6001_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/1005_green",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/5086_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/6009_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8001_infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/6009_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/9010_red"
+    }, {
+      "sub" : "http://transltr.io/milestones/6002_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4050_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/2020_gamma",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/7105_alpha%2C7100_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/4056_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/3012_indigo"
+    }, {
+      "sub" : "http://transltr.io/milestones/10001_Near_IR",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/6011_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/1007_green",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4052_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/7097_alpha",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/7105_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/6005_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4069_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/5079_orange",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4053_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/4069_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6003_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/7100_alpha",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6007_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/5083_orange",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/9007_red"
+    }, {
+      "sub" : "http://transltr.io/milestones/6001_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2020_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/4069_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6006_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/7097_alpha",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2027_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/7100_alpha",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6008_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6001_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2021_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/6001_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2022_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/4069_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6005_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/1011_green",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/7097_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/6010_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/3033_indigo"
+    }, {
+      "sub" : "http://transltr.io/milestones/4078_x-ray",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6007_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/2016_gamma",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6010_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6003_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4069_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/5083_orange",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/1001_green"
+    }, {
+      "sub" : "http://transltr.io/milestones/2015_gamma",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/5090_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/6002_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4052_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/2019_gamma",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/7105_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/6001_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/3012_indigo"
+    }, {
+      "sub" : "http://transltr.io/milestones/6005_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/1007_green"
+    }, {
+      "sub" : "http://transltr.io/milestones/10001_Near_IR",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/9012_red"
+    }, {
+      "sub" : "http://transltr.io/milestones/6002_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8100_red"
+    }, {
+      "sub" : "http://transltr.io/milestones/4071_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6010_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/8010_Infrared",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/1004_green"
+    }, {
+      "sub" : "http://transltr.io/milestones/4078_x-ray",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6008_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/10001_Near_IR",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/9011_red"
+    }, {
+      "sub" : "http://transltr.io/milestones/1005_green",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2013_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/6003_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/7100_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/9010_red",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6010_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/5089_orange",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/5083_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/9012_red",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/1003b_green"
+    }, {
+      "sub" : "http://transltr.io/milestones/6010_blue",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/5079_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/8009_infrared",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6005_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/4046_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2013_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/5083_orange",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6008_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6011_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8001_infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/1001_green",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/5089_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/9002_red",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/1000_green"
+    }, {
+      "sub" : "http://transltr.io/milestones/4065_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6006_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6001_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/9009_red"
+    }, {
+      "sub" : "http://transltr.io/milestones/6008_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/5093_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/2020_gamma",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/1010_green"
+    }, {
+      "sub" : "http://transltr.io/milestones/2014_gamma",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6010_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/4052_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6002_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/9002_red",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6009_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/7105_alpha",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/5093_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/6001_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8010_infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/7103_alpha",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6011_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/9012_red",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/1003b_green"
+    }, {
+      "sub" : "http://transltr.io/milestones/10001_Near_IR",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8003_infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/6011_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4069_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/7105_alpha",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/7097_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/6011_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/7100_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/6004_blue",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6005_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/3030_indigo",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4048_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/9001_red",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/9001_red"
+    }, {
+      "sub" : "http://transltr.io/milestones/2022_gamma",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6002_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/2015_gamma",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6002_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6011_blue",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/9012_red"
+    }, {
+      "sub" : "http://transltr.io/milestones/10001_Near_IR",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8005_infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/6001_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/1007_green"
+    }, {
+      "sub" : "http://transltr.io/milestones/6010_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4054_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/1010_green",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2020_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/5087_orange",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6005_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6011_blue",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/9011_red"
+    }, {
+      "sub" : "http://transltr.io/milestones/6011_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/7101_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/3012_indigo",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/5080_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/7100_alpha",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/7105_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/9008_red",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/5080_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/1006_green",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6006_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/1003b_green",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2018_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/10001_Near_IR",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8007_infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/6011_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4049_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/6004_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8001_infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/3023_indigo",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8003_infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/6001_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/1004_green"
+    }, {
+      "sub" : "http://transltr.io/milestones/10001_Near_IR",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8008_infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/8002_infrared",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4050_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/6002_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/7100_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/6003_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/1007_green"
+    }, {
+      "sub" : "http://transltr.io/milestones/6011_blue",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/10001_Near_IR"
+    }, {
+      "sub" : "http://transltr.io/milestones/7103_alpha",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6010_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/7106_alpha",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6008_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6009_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/9002_red"
+    }, {
+      "sub" : "http://transltr.io/milestones/6004_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6001_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/7100_alpha",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6002_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/8002_infrared",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6010_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6001_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/5089_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/9009_red",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6001_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/7100_alpha",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6003_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6006_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8001_infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/4069_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6002_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/5080_orange",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4056_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/8003_infrared",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6003_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/5089_orange",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6001_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/2015_gamma",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6009_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6001_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/5087_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/6010_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/5081_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/5083_orange",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/5092_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/7097_alpha",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/5093_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/7101_alpha",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6011_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6009_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2014_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/6008_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4078_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/2020_gamma",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6003_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/2026_gamma",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/6011_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/3033_indigo",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6010_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/1008_green",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6006_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6009_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/3022_indigo"
+    }, {
+      "sub" : "http://transltr.io/milestones/4071_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6009_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/5089_orange",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/1001_green"
+    }, {
+      "sub" : "http://transltr.io/milestones/8001_infrared",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6002_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/7097_alpha",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/1011_green"
+    }, {
+      "sub" : "http://transltr.io/milestones/2027_gamma",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/3021_indigo"
+    }, {
+      "sub" : "http://transltr.io/milestones/6009_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4069_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/6009_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2015_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/6008_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8001_infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/6011_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/7103_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/10001_Near_IR",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8001_infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/6009_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2016_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/5080_orange",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/3012_indigo"
+    }, {
+      "sub" : "http://transltr.io/milestones/1001_green",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/5089_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/5087_orange",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6001_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/8011_Infrared",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/9001_red"
+    }, {
+      "sub" : "http://transltr.io/milestones/7100_alpha",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/2020_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/8001_infrared",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6005_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6008_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/7101_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/2027_gamma",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/1011_green"
+    }, {
+      "sub" : "http://transltr.io/milestones/6006_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4066_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/5093_orange",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/7097_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/4068_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6006_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6005_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/5077_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/5093_orange",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6008_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/9003_red",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2024_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/8001_infrared",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6006_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6006_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4067_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/6008_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/7100_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/6004_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2021_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/6004_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/5086_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/5091_orange",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6005_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/3023_indigo",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/1004_green"
+    }, {
+      "sub" : "http://transltr.io/milestones/8001_infrared",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6003_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/8011_Infrared",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2026_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/6007_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4078_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/4062_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/1010_green"
+    }, {
+      "sub" : "http://transltr.io/milestones/1011_green",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/3021_indigo"
+    }, {
+      "sub" : "http://transltr.io/milestones/6008_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4069_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/8001_infrared",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6004_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6006_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4065_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/6004_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2023_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/7105_alpha",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/2019_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/5090_orange",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2015_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/6001_blue",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/8006_infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/4054_x-ray",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6010_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/4064_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4063_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/8001_infrared",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6009_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6002_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2020_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/9001_red",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/6011_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/9012_red",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/2026_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/7101_alpha",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6008_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/9012_red",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/6011_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/5079_orange",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6010_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/4078_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8003_infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/9001_red",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/2026_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/1001_green",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/5083_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/2026_gamma",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/10001_Near_IR"
+    }, {
+      "sub" : "http://transltr.io/milestones/6002_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2021_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/1001_green",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/5092_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/1006_green",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4073_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/6006_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4068_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/8001_infrared",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6007_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/2026_gamma",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/9012_red"
+    }, {
+      "sub" : "http://transltr.io/milestones/6009_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/5079_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/1002_green",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/5083_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/6005_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4079_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/6006_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4069_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/8001_infrared",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6008_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/2026_gamma",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/9011_red"
+    }, {
+      "sub" : "http://transltr.io/milestones/2027_gamma",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/7097_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/6010_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8001_infrared"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/T_index",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://purl.obolibrary.org/obo/T_RelatedTo"
+    }, {
+      "sub" : "http://transltr.io/milestones/6010_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4071_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/6001_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8006_infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/2019_gamma",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/5093_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/1001_green",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/9007_red"
+    }, {
+      "sub" : "http://transltr.io/milestones/4064_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6006_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/7106_alpha",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6003_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6010_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/9010_red"
+    }, {
+      "sub" : "http://transltr.io/milestones/6010_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8002_infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/3021_indigo",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/7097_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/6010_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/3022_indigo"
+    }, {
+      "sub" : "http://transltr.io/milestones/2026_gamma",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/1000_green"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/T_index",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://purl.obolibrary.org/obo/T_DependsOn"
+    }, {
+      "sub" : "http://transltr.io/milestones/6005_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/5091_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/3021_indigo",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2027_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/1000_green",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/5083_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/2017_gamma",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6010_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/1005_green",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/3012_indigo"
+    }, {
+      "sub" : "http://transltr.io/milestones/8007_infrared",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/1004_green"
+    }, {
+      "sub" : "http://transltr.io/milestones/6001_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2014_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/6006_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/1008_green"
+    }, {
+      "sub" : "http://transltr.io/milestones/7101_alpha",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4049_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/3023_indigo",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4046_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/6006_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/7101_alpha"
+    }, {
+      "sub" : "http://transltr.io/milestones/6006_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/1006_green"
+    }, {
+      "sub" : "http://transltr.io/milestones/7097_alpha",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/2019_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/4079_x-ray",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6005_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6001_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/2015_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/4066_x-ray",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/6006_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/6008_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/5083_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/10001_Near_IR",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/2026_gamma"
+    }, {
+      "sub" : "http://transltr.io/milestones/6001_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/8004_infrared"
+    }, {
+      "sub" : "http://transltr.io/milestones/2015_gamma",
+      "pred" : "http://transltr.io/vocab#depends_on",
+      "obj" : "http://transltr.io/milestones/6010_blue"
+    }, {
+      "sub" : "http://transltr.io/milestones/9007_red",
+      "pred" : "http://transltr.io/vocab#clin_related",
+      "obj" : "http://transltr.io/milestones/5083_orange"
+    }, {
+      "sub" : "http://transltr.io/milestones/6002_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4069_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/6001_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/4079_x-ray"
+    }, {
+      "sub" : "http://transltr.io/milestones/8005_infrared",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/1004_green"
+    }, {
+      "sub" : "http://transltr.io/milestones/6008_blue",
+      "pred" : "http://transltr.io/vocab#related_to",
+      "obj" : "http://transltr.io/milestones/7106_alpha"
+    } ],
+    "id" : "http://purl.obolibrary.org/obo/TEMP",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ]
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

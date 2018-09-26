@@ -1,0 +1,121 @@
+{
+    "style": "filled,rounded",
+    "penwidth": "8",
+    "types": ["class"],
+    "fillcolor": "white",
+
+    "relationProperties": {
+        "http://transltr.io/vocab#related_to": {
+            "color": "green",
+            "style": "dashed",
+            "label": ""
+        },
+        "http://transltr.io/vocab#depends_on": {
+            "color": "blue",
+            "label": ""
+        },
+        "http://transltr.io/vocab#clin_depends": {
+            "color": "red",
+            "arrowhead": "diamond",
+            "label": ""
+        }
+    },
+    "conditionalProperties": [
+        {
+            "conditions": {
+                "subset":"orange"
+            },
+            "properties": {
+                "color": "orange"
+            }
+        },
+        {
+            "conditions": {
+                "subset":"blue"
+            },
+            "properties": {
+                "color": "blue"
+            }
+        },
+        {
+            "conditions": {
+                "subset":"green"
+            },
+            "properties": {
+                "color": "green"
+            }
+        },
+        {
+            "conditions": {
+                "subset":"red"
+            },
+            "properties": {
+                "color": "red"
+            }
+        },
+        {
+            "conditions": {
+                "subset":"infrared"
+            },
+            "properties": {
+                "color": "pink"
+            }
+        },
+        {
+            "conditions": {
+                "subset":"gamma"
+            },
+            "properties": {
+                "color": "darkgreen"
+            }
+        },
+        {
+            "conditions": {
+                "subset":"alpha"
+            },
+            "properties": {
+                "color": "white"
+            }
+        },
+        {
+            "conditions": {
+                "subset":"indigo"
+            },
+            "properties": {
+                "color": "indigo"
+            }
+        },
+        {
+            "conditions": {
+                "subset":"x-ray"
+            },
+            "properties": {
+                "color": "yellow"
+            }
+        },
+        {
+            "conditions": {
+                "subset":"infrared"
+            },
+            "properties": {
+                "color": "white"
+            }
+        },
+        {
+            "conditions": {
+                "subset":"logic"
+            },
+            "properties": {
+                "shape": "octagon"
+            }
+        },
+        {
+            "conditions": {
+                "subset":"presentation"
+            },
+            "properties": {
+                "shape": "diamond"
+            }
+        }
+    ]
+}
